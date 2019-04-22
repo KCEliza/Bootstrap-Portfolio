@@ -1,0 +1,38 @@
+.navbar {
+    border-bottom: 2px solid orange;
+}
+h3{
+    color:green;
+    border-bottom: 2px solid green;
+}
+form{
+    margin-top:10px;
+}
+.container{
+    background-color: blue;
+    margin-top:50px;
+}
+img{
+    height:400px;
+    width: 400px;
+}
+.footer{
+    width:100%;
+    background:orange;
+    margin:20px 10px;
+    border-top: 2px solid yellowgreen;
+    text-align:center;
+    padding-top:20px;
+}
+.col-md-4{
+    position: relative;
+    margin:20px;
+}
+h5{
+    background-color:orange;
+    position:absolute;
+    bottom:20px;
+    width:400px;
+    text-align:center;
+
+}
