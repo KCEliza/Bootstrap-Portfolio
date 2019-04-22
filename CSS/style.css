@@ -16,6 +16,9 @@ img{
     height:400px;
     width: 400px;
 }
+li{
+    float:right;
+}
 .footer{
     width:100%;
     background:orange;
