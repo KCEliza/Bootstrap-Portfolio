@@ -1,16 +1,20 @@
 .navbar {
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid deeppink;
 }
 h3{
-    color:green;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid deeppink;
+}
+body{
+    background-image:url(../images/pink\ dust.png);
+    position:relative;
 }
 form{
     margin-top:10px;
 }
 .container{
-    background-color: blue;
+    background-color: #FFCCE5;
     margin-top:50px;
+    padding-bottom: 15px;
 }
 img{
     height:400px;
@@ -19,23 +23,37 @@ img{
 li{
     float:right;
 }
+
+    .navbar-dark, .navbar-brand{
+        background:deeppink;
+    }
 .footer{
     width:100%;
-    background:orange;
+    background:#FFCCE5;
     margin:20px 10px;
-    border-top: 2px solid yellowgreen;
+    border-top: 2px solid deeppink;
     text-align:center;
     padding-top:20px;
+    position:absolute;
+    bottom: -425px;
 }
 .col-md-4{
     position: relative;
     margin:20px;
 }
+#Picture{
+    margin: 50px 5px 5px;
+    float:left;
+}
 h5{
-    background-color:orange;
+    background-color:deeppink;
     position:absolute;
     bottom:20px;
     width:400px;
     text-align:center;
+    padding: 15px;
 
+}
+#formGroupExampleInput3 {
+    height:100px;
 }
